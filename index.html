@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/63555bbdae.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Front End Developer</p>
+          <h1>Hi, I'm <span> Sohil</span> <br />Tamboli From India</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------about me--------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div style="padding-left: 25px" class="about-col-1">
+            <img src="images/__1_sohil.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-tittle">About Me</h1>
+            <p>
+              I’m Sohil Tamboli, a 3rd-year Computer Science Engineering student
+              at Annasaheb Dange College, driven by a passion for software
+              development and problem-solving. I enjoy working on challenging
+              projects that push the boundaries of my skills in coding,
+              algorithms, and data structures. With a commitment to continuous
+              learning, I stay updated with the latest tech trends and eagerly
+              seek opportunities to innovate and collaborate.
+            </p>
+            <div class="tab-tittles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>Front End</span><br />Proficient in JavaScript, Python,
+                  and HTML/CSS for web development.
+                </li>
+                <li>
+                  <span>Open Source</span><br />Familiar with version control
+                  using Git and collaborative coding on GitHub.
+                </li>
+                <li>
+                  <span>Moderate in Data Structures and Algorithms</span
+                  ><br />Knowledgeable in data structures, algorithms, and
+                  object-oriented programming.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>Smart India Hackathon</span><br />Collaborated on a team
+                  project to create a full-stack web application for a college
+                  hackathon.
+                </li>
+                <li>
+                  <span>Leetcode </span><br />Regularly practice competitive
+                  programming on LeetCode and <br />CodeChef, improving
+                  problem-solving speed and efficiency.
+                </li>
+                <li>
+                  <span>Portfolio's</span><br />Developed a personal portfolio
+                  website showcasing projects and coding challenges.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span
+                    >Bachelor of Technology (B.Tech) in Computer Science
+                    Engineering</span
+                  ><br />Annasaheb Dange College of Engineering and Technology,
+                  Ashta <br />
+                  Year: 3rd Year (Expected Graduation: 2025) <br />
+                  Relevant Courses: Data Structures, Algorithms, Operating
+                  Systems, Web Development, etc.
+                </li>
+                <li>
+                  <span>Higher Secondary Education (HSC)</span><br />Sidhhanath
+                  Junior College, Mhaswad <br />
+                  Year of Completion: 2021 <br />
+                  Stream: Science mathematics.
+                </li>
+                <li>
+                  <span>Secondary School Certificate (SSC) </span><br />K.B.P.
+                  High School, Mhaswad <br />
+                  Year of Completion: 2019.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------sevices-------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Website Design and Development</h2>
+            <p>
+              I am a specialist in website design and development, focusing on
+              creating visually appealing, highly functional websites. I excel
+              in building dynamic, user-friendly platforms using JavaScript,
+              HTML, and CSS, ensuring responsive design and seamless user
+              experiences. My expertise includes optimizing website performance,
+              implementing interactive features, and following best practices in
+              modern web development.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Programming Languages</h2>
+            <p>
+              I am proficient in C, C++, and Python, with strong expertise in
+              the Standard Template Library (STL) for C++. I excel in writing
+              efficient, high-performance code for various applications,
+              including algorithm development, data structures, and system-level
+              programming. My skills also encompass problem-solving and
+              optimizing code for speed and memory usage.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-toolbox"></i>
+            <h2>Technologies and Tools</h2>
+            <p>
+              I am skilled in technologies and tools including Git, Docker, and
+              Linux. I excel in version control, containerization, and working
+              within Unix-based environments for efficient software development
+              and deployment.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------portfolio------------------------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work1.png" alt="" />
+            <div class="layer">
+              <h3>Current Focus</h3>
+              <p>
+                I am focused on studying data structures and algorithms (DSA) to
+                enhance problem-solving skills while actively engaging with
+                CodeChef, and Coding Ninjas. I am also learning web development.
+              </p>
+              <a href="https://www.codechef.com/users/tambolisohil04"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work2.png" alt="" />
+            <div class="layer">
+              <h3>Achievements</h3>
+              <p>
+                I have tackled numerous advanced problems on CodeChef and Coding
+                Ninjas, earning 7 achiever badges and 5 specialist badges on
+                Coding Ninjas. Additionally, I have achieved a 1200 rating on
+                CodeChef. These accomplishments reflect my deep understanding of
+                algorithmic concepts and demonstrate significant growth in my
+                problem-solving abilities.
+              </p>
+              <a href="https://www.naukri.com/code360/profile/sohil2233"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work3.png" alt="" />
+            <div class="layer">
+              <h3>Skills Developed            </h3>
+              <p>
+                I am learning web development and React while gaining expertise
+                in various data structures, algorithms, and coding techniques
+                through rigorous practice. My skills include advanced
+                problem-solving, algorithm optimization, efficient coding, and a
+                thorough understanding of complex concepts, enhancing my ability
+                to tackle diverse technical challenges.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- ------------------------contact------------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-tittle">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>tambolisohil04@gmail.com
+            </p>
+            <!-- <p><i class="fa-solid fa-square-phone"></i>9975016494</p> -->
+            <div class="social-icon">
+              <a
+                href="https://www.linkedin.com/in/sohil-tamboli-779892275/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/Sohil2233?tab=repositories"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/soul.music__22/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/@soulmusic2222" target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+            <!-- <a href="SOHIL TAMBOLI CV.docx" download class="btn btn2"
+              >Download CV</a
+            > -->
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <div id="msg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>Copyright © Sohil <i class="fa-solid fa-heart"></i> Made</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        // Remove active class from all tab links
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        // Remove active class from all tab contents
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxd2idcmA8gjlD4nCyhTLXTbLZQgDGnAMbhoRKjpd889UE5iLjC7nh5lusljHZKYKoX/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Messsge sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
